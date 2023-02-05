@@ -27,6 +27,6 @@ Person = {
     return self.pos.x +  self.pos.y
  end
 
- local player = Person:new(nil, "Diego", {x = 200, y=200}, {"Shidori"})
+ local player = Person:new(nil, "Diego", {x = 200, y=200}, {"Chidori"})
 
  print(player:somaPos())
